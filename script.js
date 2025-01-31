@@ -17,10 +17,10 @@ class Rectangle {
 
 class Square extends Rectangle {
 	constructor(side){
-		super(side,side);
+		super(_width,_height);
 	}
 	getPerimeter(){
-		return this._side*4;
+		return this._width*4;
 	}
 }
 const rectangle=new Rectangle(5,10);
@@ -29,8 +29,8 @@ console.log(rectangle._height);
 console.log(rectangle.getArea());
 
 const square=new Square(7);
-console.log(square._side);
-console.log(square._side);
+console.log(square._width);
+console.log(square._height);
 console.log(square.getArea());
 console.log(square.getPerimeter());
 
