@@ -24,13 +24,13 @@ class Square extends Rectangle {
 	}
 }
 const rectangle=new Rectangle(5,10);
-console.log(rectangle._width);
-console.log(rectangle._height);
+console.log(rectangle.width);
+console.log(rectangle.height);
 console.log(rectangle.getArea());
 
 const square=new Square(7);
-console.log(square._width);
-console.log(square._height);
+console.log(square.width);
+console.log(square.height);
 console.log(square.getArea());
 console.log(square.getPerimeter());
 
